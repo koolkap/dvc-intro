@@ -24,5 +24,10 @@
 11. Go to the utility tool on the windows which we downloaded & installed
 12. right click on the storage Accounts 
     - click on the storage account with the same icon as on the platform Azure
-    - enter the connection info using key or Sas
-        - where to get this 
+    - enter the connection info using key or SaS
+        - where to get this go to the "Security + Networking" for your storage account
+        - click the Access key inside it
+        - copy the connection string && storage account
+        - go to windows utitlity GUI tool add this in the required boxes
+13. Voila it start showing the required file and data information 
+    
