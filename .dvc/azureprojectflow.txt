@@ -48,4 +48,5 @@
 18. Now directly it won't start speaking 
     - dvc remote modify --local storagedemo456123 account_name 'storagedemo456123'
     - dvc remote modify --local storagedemo456123 sas_token '?sv=2025-07-05&spr=https&si=sample-2025-12-03-12%3A53%3A52.594&sr=c&sig=OUqBIwRleV3IC6UMEsPAu1GF%2Bjvaz8HPrgCkmKDTTJE%3D'
-19. dvc push
+19. dvc push 
+20. dvc pull to get the latest version of the data from the remote server
