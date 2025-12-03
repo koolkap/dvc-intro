@@ -1,0 +1,2 @@
+1. create the repo and clone in the local
+2. create the code for generating the sample csv file
