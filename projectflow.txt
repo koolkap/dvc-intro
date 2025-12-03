@@ -8,3 +8,15 @@
 5. dvc init will do two things
     - .dvc folder
     - .dvcignore same like .gitignore file to ignore the files
+6. <right now we are using the local setup using the MS Azure right now focus on the local setup>
+7.  mkdir azure to create the folder in the project
+8. Now we want to track the azure folder using the command dvc remote add -d myremote azure
+    - documentation "https://doc.dvc.org/command-reference/remote/default"
+9. now tell dvc to add folder data so that any commit changes will be notified to dvc use command dvc add data/
+10. Error happen because the git is already tracking the folder
+    - git rm -r --cached 'data'
+    - git commit -m "stop tracking data"
+11. Now add the data which dvc add data/ 
+    - this will create the data.dvc which has unique hash id
+12. check the dvc status
+
