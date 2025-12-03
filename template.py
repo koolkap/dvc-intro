@@ -13,9 +13,9 @@ new_row_loc = {'Name': 'Yu', 'Age': 20, 'City': 'Beijing'}
 
 df.loc[len(df.index)] = new_row_loc
 
-new_row_loc = {'Name': 'Mary', 'Age': 50, 'City': 'London'}
+new_row_loc2 = {'Name': 'Mary', 'Age': 50, 'City': 'London'}
 
-df.loc[len(df.index)] = new_row_loc
+df.loc[len(df.index)] = new_row_loc2
 
 print(df)
 
