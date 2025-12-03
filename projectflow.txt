@@ -1,2 +1,10 @@
 1. create the repo and clone in the local
 2. create the code for generating the sample csv file
+3. Now add the code and push over the generating
+4. initialzed the DVC install dvc using the pip command creat the requirement file
+    - if there is proble that dvc version is not showing up when typing dvc --version install the setup using chocaltey
+    - also check your environment path for the DVC
+    - do this project level but i recommend setup at global level
+5. dvc init will do two things
+    - .dvc folder
+    - .dvcignore same like .gitignore file to ignore the files
