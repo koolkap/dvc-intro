@@ -26,7 +26,9 @@
 16. need to add the row for the data
     - check the dvc status
 17. again do the dvc commit && dvc push
-18.
+18. check the git log --oneline 
+    - find the logging for the git version which done
+19. Modify the data && repeat the steps of dvc status && dvc commit && dvc push
 
 
 
