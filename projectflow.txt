@@ -22,6 +22,11 @@
 13. Commit the changes with dvc initialzed with data
 14. Now commit the data from the dvc using the command dvc commit && dvc push
 15. because the azure folder need not to track but we are working on local so showing the untracked file
+    - make the first version of the data
+16. need to add the row for the data
+    - check the dvc status
+17. again do the dvc commit && dvc push
+18.
 
 
 
