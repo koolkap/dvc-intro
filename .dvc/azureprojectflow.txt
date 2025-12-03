@@ -1,0 +1,12 @@
+1. create the new branch azure
+2. Install "Microsoft Storage Utility"
+    - go to the portal azure 
+    - click the active subscription
+    - click the resources in the side panel
+    - create '+" icon and click "Storage Account" (it will open the page for the subscription you want to create for the storage account)
+3. Give the unique name for the storage repo or reuse the present one (if working on project we take second option)
+4. Review and create live based on the options available
+5. click the create resources
+6. check the option for the storage browser on the panel left side
+7. click the downlaod for the windows utility tool for the azure browser
+    - make a small comparison with the S3
