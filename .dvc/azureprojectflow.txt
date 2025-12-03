@@ -10,3 +10,19 @@
 6. check the option for the storage browser on the panel left side
 7. click the downlaod for the windows utility tool for the azure browser
     - make a small comparison with the S3
+8. create the Data Storage >> Container >> add the new container
+8.1 Now before moving to the Access control in the Storage control let's add the member in the list using 
+    - https://entra.microsoft.com/ click on this link
+    - check the user 
+    - add the name & email id 
+    - provide him the unique tenant id for my active subscription
+9. After adding the user to the active subscription ----> Now go to the Access Control (IAM)
+    -- go to the add role assignment for granting the access to the other team member with the storage
+    -- click the members and the select "+ Select Members"
+    -- Select the member(s) which are the part of the project
+10. Now to migrate the dvc local to the "sample" data container for the sotrage account holder "storagedemo456123"
+11. Go to the utility tool on the windows which we downloaded & installed
+12. right click on the storage Accounts 
+    - click on the storage account with the same icon as on the platform Azure
+    - enter the connection info using key or Sas
+        - where to get this 
