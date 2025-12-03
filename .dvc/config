@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = storagedemo456123
 ['remote "myremote"']
     url = ../azure
+['remote "storagedemo456123"']
+    url = azure://sample/sample_data
